@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Maks.TaskPlanner.DataAccess.Abstractions\Maks.TaskPlanner.DataAccess.Abstractions.csproj" />
     <ProjectReference Include="..\Maks.TaskPlanner.Domain.Models\Maks.TaskPlanner.Domain.Models.csproj" />
   </ItemGroup>
 
