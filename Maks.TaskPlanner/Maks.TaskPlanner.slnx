@@ -1,5 +1,14 @@
 <Solution>
-  <Project Path="Maks.TaskPlanner.Domain.Logic/Maks.TaskPlanner.Domain.Logic.csproj" />
-  <Project Path="Maks.TaskPlanner.Domain.Models/Maks.TaskPlanner.Domain.Models.csproj" />
+  <Folder Name="/DataAccess/">
+    <Project Path="Maks.TaskPlanner.DataAccess.Abstractions/Maks.TaskPlanner.DataAccess.Abstractions.csproj" Id="1a320b5f-f79f-4809-afa4-1e43997bd7dc" />
+    <Project Path="Maks.TaskPlanner.DataAccess/Maks.TaskPlanner.DataAccess.csproj" Id="733db78f-29b7-4577-9844-1a374e37b04c" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Maks.TaskPlanner.Domain.Logic/Maks.TaskPlanner.Domain.Logic.csproj" />
+    <Project Path="Maks.TaskPlanner.Domain.Models/Maks.TaskPlanner.Domain.Models.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Maks.TaskPlanner.Domain.Logic.Tests/Maks.TaskPlanner.Domain.Logic.Tests.csproj" Id="4789334e-cf9e-4750-b310-add12bce93be" />
+  </Folder>
   <Project Path="Maks.TaskPlanner/Maks.TaskPlanner.csproj" />
 </Solution>
