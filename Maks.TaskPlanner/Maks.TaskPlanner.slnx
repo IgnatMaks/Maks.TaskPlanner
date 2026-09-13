@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Maks.TaskPlanner.Domain.Logic/Maks.TaskPlanner.Domain.Logic.csproj" />
+  <Project Path="Maks.TaskPlanner.Domain.Models/Maks.TaskPlanner.Domain.Models.csproj" />
+  <Project Path="Maks.TaskPlanner/Maks.TaskPlanner.csproj" />
+</Solution>
